@@ -3,6 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+
+<center><iframe src="https://player.vimeo.com/video/204693315?color=ff9933&byline=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+
 #   About
 
 Hello, I'm Chris Judkins and I make visual effects for games and film.
