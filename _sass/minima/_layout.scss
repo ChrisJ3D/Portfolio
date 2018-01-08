@@ -18,6 +18,11 @@
   margin-bottom: 0;
   float: left;
 
+  &:hover {
+    color: lighten($text-color, 20%);
+    //text-decoration: underline;
+  }
+
   &,
   &:visited {
     color: $grey-color-dark;
@@ -37,12 +42,17 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $brand-color;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: lighten($brand-color, 20%);
+      //text-decoration: underline;
     }
   }
 
@@ -135,13 +145,13 @@
 }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+  width:         calc(60% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+  width:         calc(40% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {

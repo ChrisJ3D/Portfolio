@@ -99,7 +99,7 @@ a {
   }
 
   &:hover {
-    color: lighten($text-color, 10%);
+    color: lighten($brand-color, 20%);
     //text-decoration: underline;
   }
 
@@ -107,7 +107,7 @@ a {
     text-decoration: none;
 
     .username {
-      text-decoration: underline;
+      //text-decoration: underline;
     }
   }
 }
