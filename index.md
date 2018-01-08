@@ -7,8 +7,6 @@ layout: home
 
 <center><iframe src="https://player.vimeo.com/video/204693315?color=ff9933&byline=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
 
----
-
 ## Recent Projects
 
 * Unannounced title (2018)
@@ -25,9 +23,3 @@ layout: home
 * PyQt
 * Unity
 * HDK / Houdini Engine
-
----
-
-[Vimeo](https://vimeo.com/chrisjudkins)
-
-[Twitter](https://twitter.com/ChrisJ3D)
