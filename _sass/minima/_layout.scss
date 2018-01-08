@@ -118,11 +118,13 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  text-align: center;
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  text-align: center;
 }
 
 .contact-list,
@@ -145,18 +147,24 @@
 }
 
 .footer-col-1 {
-  width: -webkit-calc(60% - (#{$spacing-unit} / 2));
-  width:         calc(60% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width:         calc(50% - (#{$spacing-unit} / 2));
+  text-align: justify;
 }
 
 .footer-col-2 {
   width: -webkit-calc(40% - (#{$spacing-unit} / 2));
   width:         calc(40% - (#{$spacing-unit} / 2));
+  text-align: justify;
+  margin-left: 10%;
 }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+  width:         calc(40% - (#{$spacing-unit} / 2));
+  text-align: right;
+  margin-left: 10%;
+  
 }
 
 @include media-query($on-laptop) {
@@ -169,6 +177,7 @@
   .footer-col-3 {
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));
+    text-align: right;
   }
 }
 
