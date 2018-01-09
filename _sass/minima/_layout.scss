@@ -131,6 +131,7 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  text-align: center;
 }
 
 .footer-col-wrapper {
@@ -141,30 +142,29 @@
 }
 
 .footer-col {
-  float: left;
   margin-bottom: $spacing-unit / 2;
+  //margin: 5px;
   padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
-  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-  width:         calc(50% - (#{$spacing-unit} / 2));
+  float: left;
+  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+  width:         calc(45% - (#{$spacing-unit} / 2));
   text-align: justify;
 }
 
 .footer-col-2 {
-  width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-  width:         calc(40% - (#{$spacing-unit} / 2));
+  float: right;
+  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+  width:         calc(45% - (#{$spacing-unit} / 2));
   text-align: justify;
-  margin-left: 10%;
 }
 
 .footer-col-3 {
-  width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-  width:         calc(40% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width:         calc(50% - (#{$spacing-unit} / 2));
   text-align: right;
-  margin-left: 10%;
-  
 }
 
 @include media-query($on-laptop) {
@@ -221,8 +221,6 @@
   display: block;
   @include relative-font-size(1.5);
 }
-
-
 
 /**
  * Posts

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On Asking For (and receiving) Feedback"
+title:  "On Receiving (and asking for) Feedback"
 date:   2018-01-08 19:38:06 -0500
 categories: blog
 tag: post
@@ -26,4 +26,18 @@ So why is this so important?
 * It's better to let others form their opinion about your work before you share your own
 * Reviewing work on it's own merits requires it to have as little context as possible
 
-## Receiving feedback, rule #2: 
+## Receiving feedback, rule #2: Maintaining Objectivity To Your Work
+
+Being able to grow artistically requires you to have a healthy relationship to your own work, and that involves having a certain amount of distance to it. Others will view your work with little context or sentiment, and being able to do the same will help you immensely. So while it's important to realize the weaknesses in your work, I'd say that it's equally important to recognize its strengths. A single effect can be broken down in any number of ways, and the more perspectives you can have, the better.
+
+Another benefit of this mindset is that criticisms towards your work becomes a lot less personal. 
+
+## Bonus - Asking for feedback: "Any thoughts?"
+
+Not a week goes by without someone posting a recent creation of theirs with the comment _"any thoughts?"_ or _"what could be improved?"_. I don't want to deride people for asking for feedback, something which is incredibly important, but if you want your feedback to be qualitative and actionable, then so must your questions be. Start by figuring out some of the following
+
+* _What am I unhappy with?_
+* _What compromises were I forced to make?_
+* _What can I do to bring it closer to this other thing?_
+
+Asking questions with these things in mind will make it much, much easier for others to approach your work and give constructive feedback. 
