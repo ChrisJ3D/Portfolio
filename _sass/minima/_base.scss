@@ -190,6 +190,26 @@ pre {
   clear: both;
 }
 
+/**
+ * Video
+ */
+.video {
+  width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  overflow: auto;
+  position: relative; 
+  padding-bottom: 56.25%; 
+  overflow: hidden; 
+  max-width: 100%; 
+}
+
+.video iframe, .video object, .video embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}
 
 
 /**
