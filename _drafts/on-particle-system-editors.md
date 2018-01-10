@@ -3,7 +3,7 @@ layout: post
 title:  "On Particle System Editors"
 date:   2018-01-08 19:38:06 -0500
 categories: blog
-tag: misc
+tag: post
 ---
 One day at work, my neighbouring graphics programming casually rolled over and asked _"So we're thinking of redoing the effects editor, do you have any thoughts on how it should work?"_. The short and simple answer would of course have been to just state what's missing and what could be improved, but instead I started thinking about the nature of effects editors, and why they look and work the way they do. I have a lot of thoughts, so be prepared for some verbosity.
 

@@ -20,7 +20,6 @@
 
   &:hover {
     color: lighten($text-color, 20%);
-    //text-decoration: underline;
   }
 
   &,
@@ -53,7 +52,6 @@
 
     &:hover {
       color: lighten($brand-color, 20%);
-      //text-decoration: underline;
     }
   }
 
@@ -111,8 +109,6 @@
   }
 }
 
-
-
 /**
  * Site footer
  */
@@ -144,7 +140,6 @@
 
 .footer-col {
   margin-bottom: $spacing-unit / 2;
-  //margin: 5px;
   padding-left: $spacing-unit / 2;
 }
 
@@ -160,12 +155,6 @@
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
   width:         calc(45% - (#{$spacing-unit} / 2));
   text-align: justify;
-}
-
-.footer-col-3 {
-  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-  width:         calc(50% - (#{$spacing-unit} / 2));
-  text-align: right;
 }
 
 @include media-query($on-laptop) {
@@ -189,8 +178,6 @@
     width:         calc(100% - (#{$spacing-unit} / 2));
   }
 }
-
-
 
 /**
  * Page content
