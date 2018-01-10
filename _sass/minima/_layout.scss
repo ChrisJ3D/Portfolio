@@ -3,7 +3,7 @@
  */
 .site-header {
   border-top: 0px solid $grey-color-dark;
-  border-bottom: 0px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-dark;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -43,7 +43,6 @@
   .page-link {
     color: $brand-color;
     line-height: $base-line-height;
-    font-size: 125%;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -160,14 +159,9 @@
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-    text-align: right;
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+    text-align: justify;
   }
 }
 
