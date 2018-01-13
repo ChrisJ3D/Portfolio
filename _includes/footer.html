@@ -1,55 +1,25 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <h3 class="footer-heading">About</h3>
-          <p>I'm Chris, and thank you for visiting my portfolio. Having worked as an artist in both the games and film industries, I've had the pleasure of doing a bit of everything, and I'm itching to try new things still.</p>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <h3 class="footer-heading">Mentorship</h3>
-          <p>Everyone needs to get started somewhere. If you have any questions about getting into or working in the film or games industries, don't hesitate to get in touch and I'll get back to you as soon as I can.</p>
-      </div>
-
-      <div class="footer-col footer-col-1">
-          <h3 class="footer-heading">Recent Projects</h3>
-          <ul>
-            <li>Battlefield 1 (2016)</li>
-            <li>Battlefield 1: They Shall Not Pass (2017)</li>
-            <li>Star Wars Battlefront (2016)</li>
-            <li>Star Wars Battlefront: Rogue One - Scarif (2017)</li>
-            <li>Unannounced title (2018)</li>
-          </ul>
-        </div>
-  
-        <div class="footer-col footer-col-2">
-          <h3 class="footer-heading">Social</h3>
-          <ul class="social-media-list">    
-              {% if site.twitter_username %}
-              <li>
-                {% include icon-twitter.html username=site.twitter_username %}
-              </li>
-              {% endif %}
-    
-              {% if site.linkedin_username %}
-              <li>
-                {% include icon-linkedin.html username=site.linkedin_username %}
-              </li>
-              {% endif %}
-    
-              {% if site.vimeo_username %}
-              <li>
-                {% include icon-vimeo.html username=site.vimeo_username %}
-              </li>
-              {% endif %}
-              
-              {% if site.email %}
-              <li>
-                {% include icon-mail.html username=site.email %}
-              </li>
-              {% endif %}
-            </ul>
+    <div class="wrapper">
+        <div class="footer-col-wrapper"> 
+            <table class="social-media-list" class="footer-col footer-col-1">
+                <tr>
+                    <td>
+                        {% include icon-mail.html username=site.email %}
+                    </td>
+                    <td>
+                        {% include icon-twitter.html username=site.twitter_username %}
+                    </td>
+                    <td>
+                        {% include icon-github.html username=site.github_username %}
+                    </td>
+                    <td>
+                        {% include icon-linkedin.html username=site.linkedin_username %}
+                    </td>
+                    <td>
+                        {% include icon-vimeo.html username=site.vimeo_username %}
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
-  </div>
 </footer>

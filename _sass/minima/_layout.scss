@@ -126,8 +126,8 @@
 .contact-list,
 .social-media-list {
   list-style: none;
-  margin-left: 0;
   text-align: center;
+  width: 100%;
 }
 
 .footer-col-wrapper {
@@ -144,8 +144,8 @@
 
 .footer-col-1 {
   float: left;
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+  width:         calc(100% - (#{$spacing-unit} / 2));
   text-align: justify;
 }
 
