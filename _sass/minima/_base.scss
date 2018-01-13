@@ -8,6 +8,10 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 /**
  * Basic styling
  */
@@ -63,6 +67,7 @@ figcaption {
  */
 ul, ol {
   margin-left: $spacing-unit;
+  list-style-type: square;
 }
 
 li {
