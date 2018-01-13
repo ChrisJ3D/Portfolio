@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -24,8 +22,6 @@ body {
           font-feature-settings: "kern" 1;
   font-kerning: normal;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -100,18 +96,13 @@ a {
 
   &:hover {
     color: lighten($brand-color, 20%);
-    //text-decoration: underline;
   }
 
   .social-media-list &:hover {
     text-decoration: none;
 
-    .username {
-      //text-decoration: underline;
-    }
   }
 }
-
 
 /**
  * Blockquotes
@@ -128,8 +119,6 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
  * Code formatting
@@ -157,8 +146,6 @@ pre {
   }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -178,8 +165,6 @@ pre {
     padding-left: $spacing-unit / 2;
   }
 }
-
-
 
 /**
  * Clearfix
