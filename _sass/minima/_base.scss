@@ -209,15 +209,10 @@ pre {
 .icon > svg {
   display: inline-block;
   vertical-align: middle;
+  padding-right: 10px;
 
   path {
     fill: $grey-color;
-  }
-}
-
-.social-media-list {
-  .icon {
-    padding-right: 5px;
   }
 
   li + li {
