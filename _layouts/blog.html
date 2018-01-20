@@ -8,7 +8,7 @@ layout: default
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {% if post.tag != "repost" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.date | date: date_format }} — article</span>
         
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -16,7 +16,7 @@ layout: default
         {% endif %}
 
         {% if post.tag == "repost" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.date | date: date_format }} — {{ post.tag }}</span>
         <h2>
           <a class="post-link" href="{{ post.link }}">{{ post.title | escape }}</a>
         </h2>
