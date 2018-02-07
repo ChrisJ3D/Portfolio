@@ -8,9 +8,9 @@ published: published
 ---
 I've been dealing a lot with authoring flipbook textures in Houdini lately, and I wanted to share a quick tidbit on rendering (and reading) image sequences that aren't very sequential.
 
-Most ROP output nodes in Houdini will allow you to output every nth frame by changing the rendering increment, saving both rendering time and disk space. However, with this comes the issue that if you're using the default `$F` variable in your file names, you'll end up with files names such as 01, 03, 05, 07, etc. This makes it messy when you try to read these files back into Houdini for rendering or compositing purposes, or even if you're just trying to check things out in mplay. There are of course expressions to only read back every other frame, as well as external tools to batch rename files, but I wanted to show you a way to have them written correctly from the get-go.
+Most ROP output nodes in Houdini will allow you to output every nth frame by changing the rendering increment, saving both rendering time and disk space. However, with this comes the issue that if you're using the default `$F` variable in your filenames, you'll end up with names such as 01, 03, 05, 07, etc. This makes it messy when you try to read these files back into Houdini for rendering or compositing purposes, or even if you're just trying to check things out in mplay. There are of course expressions to only read back every other frame, as well as external tools to batch rename files, but I wanted to show you a way to have them written correctly from the get-go.
 
-Let's say that you're rendering out every 2 frames of `texture.$F4.tga`, but you want it to output 01,02,03.. instead of 01,03,05.. We can achieve this by replacing the filename with the following:
+Let's say that you're rendering out every 2 frames of `texture.$F4.tga`, but you want it to output 0001,0002,0003.. instead of 0001,0003,0005.. We can achieve this by replacing the filename with the following:
 
 ```texture.`padzero(4, floor($F/2) + 1)`.tga```
 
