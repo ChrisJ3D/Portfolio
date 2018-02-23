@@ -28,3 +28,5 @@ I'm Chris, and I make visual effects for games and film. I began my career navig
 
 * [Futuregames](http://futuregames.se/) _MBA in Realtime Digital Art, Specialized in Visual Effects_
 * [Nackademin Yrkeshögskola](https://nackademin.se/) _MBA in Digital Art, Specialized in Realtime Graphics_
+
+{% include footer.html %}

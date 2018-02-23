@@ -17,3 +17,5 @@ Don't hesitate to get in touch in a manner of your choosing (links at the bottom
 * [Real-Time VFX](https://realtimevfx.com) is a fantastic resource to get in touch with tons of people who do realtime effects work for a living (there's also a [Facebook group](https://www.facebook.com/groups/realtimevfx/) for convenience)
 * The storied [Polycount](http://www.polycount.com) community has been around _forever_ and continues to be a great place to ask questions
 * [Pluralsight](https://www.pluralsight.com/browse/creative-professional/game-development), [GameTutor](http://www.gametutor.com/live/home-live/), and [CGCircuit](https://www.cgcircuit.com/index.html) all host excellent online tutorials
+
+{% include footer.html %}
