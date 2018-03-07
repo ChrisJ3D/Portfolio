@@ -8,10 +8,6 @@ published: true
 
 I'm Chris, and I make visual effects for games and film. I began my career navigating the numerous studios around Stockholm, and am currently residing in New York.
 
-## Mentorships
-
-Everyone needs to get started somewhere. I'm happy to provide portfolio reviews, advice, or answer any questions you might have about working with digital art in the film or games industry. Don't hesitate to get in touch and I'll get back to you as soon as I can.
-
 ## Projects
 
 * [Battlefield 1 (2016)](https://www.battlefield.com/games/battlefield-1)
@@ -28,8 +24,9 @@ Everyone needs to get started somewhere. I'm happy to provide portfolio reviews,
 * [Lionbite Games](http://www.lionbite.se)
 * [That Brain](http://www.thatbrain.se)
 
-
 ## Education
 
 * [Futuregames](http://futuregames.se/) _MBA in Realtime Digital Art, Specialized in Visual Effects_
 * [Nackademin Yrkeshögskola](https://nackademin.se/) _MBA in Digital Art, Specialized in Realtime Graphics_
+
+{% include footer.html %}
