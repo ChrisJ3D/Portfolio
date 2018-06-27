@@ -14,7 +14,7 @@ I'm Chris, and I make visual effects for games and film. I began my career navig
 * [Battlefield 1 - They Shall Not Pass (2017)](https://www.battlefield.com/games/battlefield-1/they-shall-not-pass)
 * [Star Wars Battlefront (2016)](http://starwars.ea.com/starwars/battlefront)
 * [Star Wars Battlefront - Rogue One: Scarif (2017)](http://starwars.ea.com/starwars/battlefront/rogue-one)
-* Unannounced title (2018)
+* [Just Cause 4 (2018)](https://justcause.square-enix-games.com/)
 
 ## Studios
 
