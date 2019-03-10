@@ -1,0 +1,6 @@
+This is the source for my website!!
+
+To develop, make sure the environment is all set up, and then run
+    bundle exec jekyll serve
+
+When pushed to github, the live version will automatically be updated
